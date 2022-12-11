@@ -1,16 +1,31 @@
-# This is a sample Python script.
+name = 'Obichukwu'
+print("name is" + " " + name)
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+multi_line_string = """ Obinna is a good boy, fighting his
+darkness and demons all by himself,
+and hoping for a better tomorrow
+"""
+print(multi_line_string)
 
+string_length = "Hello, Python"
+print(len(string_length))
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+i = "Hello, Python"
+print(string_length[4])
 
+for x in "banana":
+    print(x)
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+check_string = "The best things in life are free!"
+print("free" in check_string)
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+txt = "The best things in life are free!"
+if "free" in txt:
+    print("Yes, 'free' is present.")
+
+txt1 = "The best things in life are free!"
+print("expensive" not in txt)
+
+txt2 = "The best things in life are free!"
+if "expensive" not in txt:
+    print("No, 'expensive' is NOT present.")
